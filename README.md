@@ -10,8 +10,6 @@ class Staff:
 
     def payment_calculation(self):
         print(f'Personal ID - {self.id_num} Full name - {self.full_name}, Salary - {self.salary}, Hours worked - {self.hours_worked}, Number of sales - {self.num_of_sales}')
-      
-# c= Staff('Барсбек Канаткулов', 1, 45000, 18, 0)
 
 
 class Manager(Staff):
